@@ -26,7 +26,7 @@ export default class Home extends React.Component {
                                     
                             </div>
                             
-                            <div class="lg:mx-auto bg-transparent  md:mx-auto sm:mx-0">
+                            <div class="lg:mx-auto bg-transparent">
                                 
                                 <div class="container lg:rounded-md mx-auto drop-shadow-lg mt-5 bg-gradient-to-r from-rose-500 via-green-500 to-blue-500 p-5">
                                 
@@ -68,7 +68,7 @@ export default class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="container mx-auto mt-10">
+                <div class="container mx-auto p-10">
                     <p class="text-sky-900 font-bold text-5xl mx-auto p-5"> News and Events </p>
                     <div class="container grid grid-cols-2 gap-4  bg-transparent mx-0">
                         <div>
@@ -97,6 +97,42 @@ export default class Home extends React.Component {
 
 
                             </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class=" bg-gray-800 p-20 mx-0">
+                    <div class="container bg-transparent">
+                        <div class=" grid grid-cols-2 gap-20 bg-transparent">
+                            <div class="bg-transparent mx-auto">
+                                <iframe
+                                class= "rounded-md shadow-md mx-auto bg-transparent"
+                                width="560" height="315" src="https://www.youtube.com/embed/x2q0IAR5rBQ?autoplay=1&muted=1&controls=0&repeat=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="bg-transparent  border-white mx-auto"> 
+                                <div class="bg-transparent inline-block mx-auto">
+
+                                   <div class="bg-transparent flex">
+                                        <img  class=" w-20 h-20  flex mx-0 mr-5 rounded-xl" src="./cpelogo.png"/>
+                                        
+                                        
+                                        <p class="bg-transparent flex mx-auto text-left text-white font-semibold text-4xl "> 
+                                                Subscribe to the
+                                                Computer Engineering Youtube Channel!
+                                        </p>
+                                    </div>
+                                   
+                                    <p class="bg-transparent text-white text-left mt-10">Channel offers: </p>
+
+                                    <ul class="bg-transparent  text-left list-disc ml-5">
+                                        <li class="bg-transparent text-white">Homework Help for Math, Science and Engineering material</li>
+                                        <li class="bg-transparent text-white">Programming tutorials</li>
+                                        <li class="bg-transparent text-white">Cool drone aerial shots</li>
+                                        <li class="bg-transparent text-white">Cat videos </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
