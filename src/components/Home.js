@@ -2,6 +2,7 @@ import React from "react";
 import Phone from "./phone/Phone";
 import DiscordWidget from "./widgets/DiscordWidget"
 import { LaptopWidget } from "./widgets/LaptopWidget";
+import 'flowbite';
 
 export default class Home extends React.Component {
     
@@ -11,15 +12,15 @@ export default class Home extends React.Component {
         return(
             <div>
                 <div class="m-0 w-full h-full bg-cover bg-transparent" style={{backgroundImage:"url('./Science Building.jpeg')"}}>
-                    <div class="container mx-auto bg-transparent" style={{maxWidth:"1100px"}}>
+                    <div class="container lg:mx-auto bg-transparent" style={{maxWidth:"1100px"}}>
                         <div class="bg-transparent">
-                            <p class="text-4xl bg-transparent text-left pt-10 ">
+                            <p class="text-4xl bg-transparent lg:text-left lg:pt-10 ">
                                 Welcome to <span class="lg:text-zinc-800 bg-transparent"> CSUS VESPA </span>
                             </p>
                         </div>
-                        <div class="grid grid-cols-2 gap-4 mx-auto pt-10 bg-transparent">
+                        <div class="lg:grid lg:grid-cols-2 gap-4  lg:mx-auto lg:pt-10 bg-transparent ">
                             
-                            <div class=" bg-transparent"
+                            <div class=" bg-transparent phonescreen"
                                 style={{maxWidth:"500px",minHeight:"500px"}}>
                                     
                                 <Phone/>
@@ -28,14 +29,14 @@ export default class Home extends React.Component {
                             
                             <div class="lg:mx-auto bg-transparent">
                                 
-                                <div class="container lg:rounded-md mx-auto drop-shadow-lg mt-5 bg-gradient-to-r from-rose-500 via-green-500 to-blue-500 p-5">
+                                <div class="container lg:rounded-md mx-auto drop-shadow-lg lg:mt-5 bg-gradient-to-r from-rose-500 via-green-500 to-blue-500 p-5">
                                 
                                     Now Celebrating Pride Month!
                                 </div>
-                                <div class="bg-gradient-to-r from-teal-500  to-green-500 p-3 rounded-md drop-shadow-lg mt-20"
+                                <div class="bg-gradient-to-r from-teal-500  to-green-500 lg:p-3 rounded-md drop-shadow-lg  lg:mt-20"
                                        
                                         style={{maxWidth:"500px"}}>
-                                    <p class="text-zinc-800 bg-transparent sm:text-left">
+                                    <p class="text-zinc-800 bg-transparent lg:mx-auto ">
                                         A Community for ECS Majors to learn each other's major's skillsets without the need of multi-majoring
                                         A friendly place were students can learn to do more with skillsets they already have.
                                     Neccessary career helps for students to ensure a better chance at success in a growing market.
@@ -49,7 +50,7 @@ export default class Home extends React.Component {
                     </div>
                 </div>
                 <div class="bg-gradient-to-r from-teal-500  to-green-500">
-                    <div class="container grid grid-cols-2 gap-4  bg-transparent mx-0">
+                    <div class="container lg:grid grid-cols-2 lg:gap-4  bg-transparent mx-0">
                             <div class=" p-3 rounded-md bg-transparent drop-shadow-lg" 
                                 style={{minHeight:"500px"}}>
                                 <ul class="text-zinc-900 list-disc text-2xl  text-left p-20 mt-10 bg-transparent pt-5">
@@ -70,7 +71,7 @@ export default class Home extends React.Component {
                 </div>
                 <div class="container mx-auto p-10">
                     <p class="text-sky-900 font-bold text-5xl mx-auto p-5"> News and Events </p>
-                    <div class="container grid grid-cols-2 gap-4  bg-transparent mx-0">
+                    <div class="container lg:grid grid-cols-2 gap-4  bg-transparent mx-0">
                         <div>
                             <img class="" src="./vespa-logo.png"/>
                         </div>
@@ -102,11 +103,12 @@ export default class Home extends React.Component {
                 </div>
                 <div class=" bg-gray-800 p-20 mx-0">
                     <div class="container bg-transparent">
-                        <div class=" grid grid-cols-2 gap-20 bg-transparent">
-                            <div class="bg-transparent mx-auto">
+                        <div class=" lg:grid grid-cols-2 gap-20 bg-transparent">
+                            <div class="bg-transparent mx-auto lg:min-w-full lg:h-80 ">
                                 <iframe
-                                class= "rounded-md shadow-md mx-auto bg-transparent"
-                                width="560" height="315" src="https://www.youtube.com/embed/x2q0IAR5rBQ?autoplay=1&muted=1&controls=0&repeat=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                class= "lg:rounded-md shadow-md mx-auto lg:min-w-full lg:h-80 bg-transparent "
+                               
+                                src="https://www.youtube.com/embed/x2q0IAR5rBQ?autoplay=1&muted=1&controls=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="bg-transparent  border-white mx-auto"> 
                                 <div class="bg-transparent inline-block mx-auto">
