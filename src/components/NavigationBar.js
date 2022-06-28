@@ -21,7 +21,7 @@ export default class NavigationBar extends React.Component {
                 <div class="container flex flex-wrap justify-between items-center mx-auto bg-transparent">
                     <a href="/home" class="flex items-center bg-transparent">
                         <img src="./vespa-logo.png" class="mr-3 h-6 sm:h-9 bg-transparent" alt="Vespa Logo" />
-                        <span class="self-center text-xl font-semibold whitespace-nowrap  bg-transparent dark:text-white">CSUS VESPA</span>
+                        <span class="self-center text-xl font-semibold whitespace-nowrap text-white bg-transparent hover:text-green-400">CSUS VESPA</span>
                     </a>
                     <button onClick={()=> {
                         console.log("clicked")
@@ -46,10 +46,11 @@ export default class NavigationBar extends React.Component {
                     <div class="hidden w-full md:block md:w-auto bg-transparent" id="mobile-menu">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium bg-transparent" >
                         <li class="bg-transparent">
-                            <a href="/apprenticeship101" class="block py-2 pr-4 pl-3 text-white bg-transparent rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Apprenticeship</a>
+                            <a href="/apprenticeship101" class="block py-2 pr-4 pl-3 text-white bg-transparent hover:text-green-400 rounded md:bg-transparent  md:p-0" aria-current="page">Apprenticeship</a>
                         </li>
                         <li class="bg-transparent">
-                            <a href="/tutorial" class="block py-2 pr-4 pl-3 text-gray-700 border-b bg-transparent border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">tutorial</a>
+                            <a href="/tutorial" 
+                            class="block py-2 pr-4 pl-3 text-white border-b bg-transparent border-gray-100 hover:text-green-400 md:hover:bg-transparent md:border-0  md:p-0   ">tutorial</a>
                         </li>
                         
 
