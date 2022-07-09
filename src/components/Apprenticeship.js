@@ -4,7 +4,7 @@ export default class Apprenticeship extends React.Component {
     render() {
         return(
             <div class="mt-10">
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
                     <div class= "container mt-5 ">
                         <p class="text-left">
@@ -16,7 +16,7 @@ export default class Apprenticeship extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <div class="p-6 max-w-md   mx-auto rounded-lg border mt-5  bg-transparent shadow-md dark:bg-gray-800      dark:border-gray-700">
+                    <div class="p-6 max-w-md   mx-auto lg:rounded-lg  lg:mt-5  bg-transparent shadow-md dark:bg-gray-800      dark:border-gray-700">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight  bg-transparent text-gray-900 dark:text-white">Let us know your availability</h5>
 
                         <p class="mb-3 font-normal text-gray-500  bg-transparent dark:text-gray-400">
@@ -30,7 +30,7 @@ export default class Apprenticeship extends React.Component {
                     </div>  
             
                 
-                    <div class="p-6 max-w-md   mx-auto rounded-lg border mt-5  bg-transparent shadow-md dark:bg-gray-800      dark:border-gray-00">
+                    <div class="p-6 max-w-md   mx-auto lg:rounded-lg lg:mt-5  bg-transparent shadow-md dark:bg-gray-800      dark:border-gray-00">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight  bg-transparent text-gray-900 dark:text-white">CyberDyne VESPA Leaders Application</h5>
                        
                         <p class="bg-transparent text-gray-200 ">

@@ -1,7 +1,6 @@
 import React from "react";
 import Phone from "./phone/Phone";
 
-import DiscordWidget from "./widgets/DiscordWidget"
 import { LaptopWidget } from "./widgets/LaptopWidget";
 import 'flowbite';
 import "./Home.css"

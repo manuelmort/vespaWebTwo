@@ -19,10 +19,10 @@ function Navbar() {
       
         
             <div className=' bg-transparent  bg-gray-800'>
-
-                <img src="./vespa-logo.png" alt="vespa logo" class="bg-transparent inline-block scale-down object-cover lg:mb-2 pb-1 lg:pl-10" style={{maxWidth:"100px"}}/>
-                <p class="inline-block text-white font-semibold bg-transparent lg:text-3xl lg:mt-5 lg:ml-2">CSUS VESPA</p>
-                    
+                <a href="/" class="bg-transparent <--lazy-code-right-here-lmao">
+                    <img src="./vespa-logo.png" alt="vespa logo" class="bg-transparent inline-block scale-down object-cover lg:mb-2 pb-1 lg:pl-10" style={{maxWidth:"100px"}}/>
+                    <p class="inline-block text-white font-semibold bg-transparent lg:text-3xl lg:mt-5 lg:ml-2">CSUS VESPA</p>
+                </a>
                 
                 <Link to='#' className='menu-bars bg-transparent bg-gray-800'>
                     <FaIcons.FaBars class="bg-transparent text-white lg:mr-10 lg:mt-5 mt-2 mr-5 float-right" onClick={showSidebar} />
