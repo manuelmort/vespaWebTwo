@@ -7,17 +7,15 @@ import 'flowbite';
 import "./Home.css"
 
 export default class Home extends React.Component {
-    
-    
 
     render() {
         return(
             <div>
                 <div class="m-0 w-full h-full bg-cover bg-transparent" style={{backgroundImage:"url('./Science Building.jpeg')"}}>
                     <div class="container lg:mx-auto bg-transparent" style={{maxWidth:"1100px"}}>
-                        <div class="bg-transparent mobilefilter">
-                            <p class="text-4xl bg-transparent lg:text-left lg:pt-10 ">
-                                Welcome to <span class="lg:text-zinc-800 bg-transparent"> CSUS VESPA </span>
+                        <div class="lg:bg-transparent bg-gray-800 text-white  ">
+                            <p class="text-4xl bg-transparent  lg:text-left lg: lg:text-gray-800 lg:pt-10 ">
+                                Welcome to <span class="lg:text-zinc-800 bg-transparent text-green-400"> CSUS VESPA CLUB </span>
                             </p>
                         </div>
                         <div class="lg:grid lg:grid-cols-2 gap-4  lg:mx-auto lg:pt-10 bg-transparent ">
@@ -35,7 +33,7 @@ export default class Home extends React.Component {
                                 
                                     Happy 4th Of July!
                                 </div>
-                                <div class="bg-gray-800 lg:bg-gradient-to-r lg:from-teal-500  lg:to-green-500 lg:p-3 lg:rounded-md drop-shadow-lg  lg:mt-20"
+                                <div class="bg-gray-800 lg:bg-gradient-to-r lg:from-teal-500  lg:to-green-500 lg:p-3 lg:rounded-md lg:drop-shadow-lg  lg:mt-20 mobilefilter"
                                        
                                         style={{maxWidth:"500px"}}>
                                     <p class="lg:text-zinc-800 bg-transparent lg:mx-auto text-white  ">
@@ -51,17 +49,17 @@ export default class Home extends React.Component {
                         
                     </div>
                 </div>
-                <div class="bg-gray-800 bg-gradient-to-r lg:from-teal-500  lg:to-green-500">
+                <div class="bg-gray-800 bg-gradient-to-r from-teal-500  to-green-500">
                     <div class="container lg:grid grid-cols-2 lg:gap-4  bg-transparent mx-0">
                             <div class=" p-3 rounded-md bg-transparent drop-shadow-lg" 
                                 style={{minHeight:"500px"}}>
-                                <ul class="text-zinc-900 list-disc text-2xl  text-left lg:text-left lg:p-20 mt-10 bg-transparent pt-5">
-                                    <p class="bg-transparent">Our Purpose</p>
-                                    <li class="bg-transparent">Study sectors for ALL ECS majors</li>
-                                    <li class="bg-transparent">More than 1000 members across all ECS majors</li>
-                                    <li class="bg-transparent">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</li> 
-                                    <li class="bg-transparent">Homework/Projects helps (within the rules of Sac State)</li> 
-                                    <li class="bg-transparent"> Career helps such as resume review/advice, internship/job offers</li>
+                                <ul class="lg:text-zinc-900 lg:list-disc text-2xl text-white sm:text-gre list-none text-left lg:text-left lg:p-20 lg:mt-1 mt-5 bg-transparent pt-5">
+                                    <p class="bg-gray-800 p-3 text-center rounded-md mb-5 text-white">Our Purpose</p>
+                                    <li class="bg-transparent p-2">Study sectors for ALL ECS majors</li>
+                                    <li class="bg-transparent p-2">More than 1000 members across all ECS majors</li>
+                                    <li class="bg-transparent p-2">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</li> 
+                                    <li class="bg-transparent p-2">Homework/Projects helps (within the rules of Sac State)</li> 
+                                    <li class="bg-transparent p-2"> Career helps such as resume review/advice, internship/job offers</li>
                                     
                                 </ul>
                             </div>
@@ -107,10 +105,10 @@ export default class Home extends React.Component {
                 <div class=" bg-gray-800 lg:p-20 mx-0">
                     <div class=" bg-transparent">
                         <div class=" lg:grid grid-cols-2 gap-20 bg-transparent mx-0 md:mx-auto">
-                            <div class="bg-transparent lg:h-80 ">
+                            <div class="bg-transparent lg:h-80 phonescreen ">
                             <iframe  
                                 class= "lg:rounded-md shadow-md m-0 w-full h-full bg-cover lg:min-w-full lg:h-80  bg-transparent "
-                             src="https://www.youtube.com/embed/4UVci93XOSQ?autoplay=1&controls=0&muted=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             src="https://www.youtube.com/embed/4UVci93XOSQ?autoplay=1&controls=0&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="bg-transparent  border-white mx-auto"> 
                                 <div class="bg-transparent inline-block mx-auto">
@@ -119,7 +117,7 @@ export default class Home extends React.Component {
                                         <img  class=" lg:w-20 lg:h-20 lg:flex lg:mr-5 lg:rounded-xl  sm:mx-auto " src="./cpelogo.png"/>
                                         
                                         
-                                        <p class="bg-transparent  mx-auto lg:text-left text-white font-semibold text-4xl "> 
+                                        <p class="bg-transparent  lg:mx-auto lg:text-left text-white font-semibold text-4xl lg:p-0 p-5"> 
                                                 Subscribe to the
                                                 Computer Engineering Youtube Channel!
                                         </p>
