@@ -14,7 +14,7 @@ export default class Home extends React.Component {
                     <div class="container lg:mx-auto bg-transparent" style={{maxWidth:"1100px"}}>
                         <div class="lg:bg-transparent bg-gray-800 text-white  ">
                             <p class="text-4xl bg-transparent  lg:text-left lg: lg:text-gray-800 lg:pt-10 ">
-                                Welcome to <span class="lg:text-zinc-800 bg-transparent text-green-400"> CSUS VESPA CLUB </span>
+                                Welcome to <span class="lg:text-zinc-800 bg-transparent text-green-400"> CSUS CyberDyne CLUB </span>
                             </p>
                         </div>
                         <div class="lg:grid lg:grid-cols-2 gap-4  lg:mx-auto lg:pt-10 bg-transparent ">
